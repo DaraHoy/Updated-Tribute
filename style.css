@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.absolute{
+            position:absolute;
+            top:0;
+            left:0;
+        }
+#bgimg{
+            width:80vw;
+            top: 20vh;
+            left:30vw;
+            z-index:-1;
+        }
+.highlight-text {
+    color: white;
+}
+#video{
+    
+}
+
+p{
+    color: white;
+}
+li{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
