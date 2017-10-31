@@ -1,0 +1,192 @@
+    1  ls
+    2  mkdir htmldemo
+    3  cd htmldemo/
+    4  touch index.html
+    5  c9 index.html 
+    6  touch page.html
+    7  c9 page.html 
+    8  cd ..
+    9  ls
+   10  mv htmldemo/ Classwork/
+   11  lsl
+   12  ls
+   13  cd workspace/
+   14  cd Classwork/
+   15  mkdir classTribute
+   16  cd classTribute/
+   17  touch index.html
+   18  c9 index.html 
+   19  touch style.css
+   20  c9 style.css 
+   21  mv style.css bsStyle.css
+   22  touch style.css
+   23  c9 style.css
+   24  c9 bsStyle.css 
+   25  ls
+   26  mkdir images
+   27  git init
+   28  git add .
+   29  git commit -m"First Commit"
+   30  git remote add origin git@github.com:DaraHoy/Updated-Tribute.git
+   31  git push -u origin master
+   32  cd /
+   33  pwd
+   34  cd ~
+   35  cd workspace/
+   36  cd /
+   37  cd home
+   38  ls
+   39  cd ubuntu/
+   40  l
+   41  ls
+   42  cd workspace/
+   43  mkdir unix101
+   44  ls
+   45  cd unix101/
+   46  mkdir rhode island
+   47  cd rhode island/
+   48  ls
+   49  cd ..
+   50  ls
+   51  rm island/
+   52  mkdir rhode/ island
+   53  mkdir rhode\ island
+   54  ls
+   55  rm -r island/
+   56  ls
+   57  rm -r rhode
+   58  cd rhode\ island/
+   59  cd ..
+   60  ls
+   61  cd rhode\ island/
+   62  mkdir providence warwick
+   63  ls -help
+   64  ls --all
+   65  ls -a
+   66  ls help
+   67  ls
+   68  mkdir warick
+   69  help
+   70  ls -l
+   71  cd providence/
+   72  touch 475ValleySt
+   73  ls -l
+   74  ls
+   75  ls -l
+   76  echo CareerDevs
+   77  ls
+   78  echo CareerDevs 475ValleySt 
+   79  man echo
+   80  echo CareerDevs > 475ValleySt 
+   81  ls -l
+   82  cat 475ValleySt 
+   83  echo Waterfire > 475ValleySt 
+   84  cat 475ValleySt 
+   85  echo Waterfire CareerDevs > 475ValleySt 
+   86  cat 475ValleySt 
+   87  echo trucks >> 475ValleySt 
+   88  ls
+   89  cat 475ValleySt 
+   90  map cat
+   91  man cat
+   92  man echo
+   93  echo WaterFire > 475ValleySt 
+   94  echo CareerDevs >> 475ValleySt 
+   95  cat 475ValleySt 
+   96  ls-la
+   97  ls -la
+   98  echo SiliconRhode >> 475ValleySt 
+   99  ls -la
+  100  touch .Romulus
+  101  ls
+  102  ls -a
+  103  ls -la 
+  104  touch .Illuminati
+  105  ls -la
+  106  ls -l
+  107  ls -la
+  108  vi 475ValleySt 
+  109  cat 475ValleySt 
+  110  rm .Romulus .Illuminati 
+  111  ls -la
+  112  ../ ../
+  113  ../ ..
+  114  ..
+  115  rmdir warick/
+  116  touch providence/iggys
+  117  mv providence/iggys providence/warwick
+  118  ls
+  119  ls warwick/
+  120  ls
+  121  cd warwick/
+  122  ls
+  123  mv providence/iggys warwick
+  124  mv providence/iggys warwick/
+  125  cd ..
+  126  mv providence/iggys warwick/
+  127  ls
+  128  cd providence/
+  129  ls
+  130  rm warwick 
+  131  cd ..
+  132  ls
+  133  touch providence/iggys
+  134  ls providence/
+  135  mv providence/iggys warwick/
+  136  ls providence/
+  137  ls warwick/
+  138  curl https://google.com
+  139  curl google.com
+  140  curl www.google.com
+  141  curl http://www.ibm.com/us-en/
+  142  curl https://www.ibm.com/us-en/
+  143  curl https://www.ibm.com/us-en/ > index.html
+  144  c9 index.html 
+  145  .. ~
+  146  cd ~
+  147  ls
+  148  cd workspace/
+  149  ls
+  150  mv unix101/ Classwork/
+  151  ls
+  152  cd Classwork/
+  153  ls
+  154  ls -la
+  155  cd classTribute/
+  156  git commit -m"Version 1.o"
+  157  git reset HEAD~
+  158  ls
+  159  git status
+  160  c9 index.html 
+  161  git add index.html 
+  162  git commit -m"Add span to text"
+  163  git commit -m"Minor modification"
+  164  git reset HEAD
+  165  ls
+  166  git status
+  167  git add index.html 
+  168  ls
+  169  git status
+  170  git push
+  171  git add index.html 
+  172  git commit -m "minor modification"
+  173  git branch -b myNotesBranch
+  174  git branch -v myNotesBranch
+  175  git branch myNotesBranch 
+  176  git checkout myNotesBranch 
+  177  mkdir notes
+  178  touch notes/notes.text
+  179  echo Add >> notes/notes.text 
+  180  cat notes/notes.text 
+  181  echo minues  >> notes/notes.text 
+  182  cat notes/notes.text 
+  183  git add notes/notes.text 
+  184  git commit -m "create notes.text"
+  185  git checkout master
+  186  git merge myNotesBranch 
+  187  echo change >> notes/notes.text 
+  188  git push
+  189  git reset HEAD
+  190  gitlog > gitlog.txt
+  191  git log > gitlog.txt
+  192  history > history.txt
